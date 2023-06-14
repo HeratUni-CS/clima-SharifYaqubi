@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 import 'package:clima/services/weather.dart';
 import 'city_screen.dart';
-
-class HomeScreen extends StatefulWidget {
-  LocationScreen({this.locationWeather});
+// I create the All the Ui
+class UserInputScreen extends StatefulWidget {
+  UserInputScreen({this.locationWeather});
 
   final locationWeather;
 
@@ -88,7 +88,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       if (typedName != null) {
                         var weatherData =
                             await weather.getCityWeather(typedName);
-                        updateUI(weatherData);
+                        update(weatherData);
                       }
                     },
                     child: Icon(
