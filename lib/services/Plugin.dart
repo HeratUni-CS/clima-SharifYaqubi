@@ -7,7 +7,6 @@ class PlugIn {
   final String url;
   // I plugIn to http to get the data
   
- // get datat from server
   Future getData() async {
     http.Response response = await http.get(url);
 
