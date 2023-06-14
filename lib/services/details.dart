@@ -55,4 +55,6 @@ class DetailsModel {
       return 'Bring a 🧥 just in case';
     }
   }
+  
+  // the last I Create the NetWork 
 }
