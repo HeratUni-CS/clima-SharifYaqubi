@@ -11,7 +11,7 @@ class UserInputScreen extends StatefulWidget {
   @override
   _LocationScreenState createState() => _LocationScreenState();
 }
-
+ // Create the Input Text to send the Data
 class _LocationScreenState extends State<LocationScreen> {
   WeatherModel weather = WeatherModel();
   int tem;
